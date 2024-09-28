@@ -1,0 +1,18 @@
+h1{
+    color: rgb(0, 50, 108);
+    text-align: center;
+}
+
+p{
+    background-color:rgba(0, 138, 138, 0.331);
+    line-height: 1.5rem;
+    padding-left: 10px;
+}
+#main{
+    background-color: rgb(192, 192, 192);
+    padding: 10px;
+}
+.gap{
+    display: flex;
+    justify-content: space-around;
+}

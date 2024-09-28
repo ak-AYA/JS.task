@@ -1,0 +1,35 @@
+"use strict"
+let objects = ["Coding", "Academy", "By", "Orange"];
+objects.push("Jordan"); 
+console.log(objects)
+
+//
+let objects2 = ["Coding", "Academy", "By", "Orange"];
+let removed = objects2.slice(0, 2);
+console.log(objects2.slice(0, 2),"objects2.slice(0, 2)")
+
+
+let array1 = ["Coding", "Academy" , "By", "Orange"];
+array1.unshift("Welcome", "to");
+console.log(array1); 
+
+let array2 = ["Coding", "Academy" , "By", "Orange"];
+array2.shift(1);
+console.log(array2); 
+
+
+let array3 = ["Coding", "Academy" , "By", "Orange"];
+let text3 = array3.join(" ");
+console.log(text3); 
+
+let array4 = ["Coding", "Academy" , "By", "Orange"];
+console.log(array4); 
+
+
+
+
+
+
+
+
+

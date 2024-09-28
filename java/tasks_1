@@ -1,0 +1,50 @@
+let cash = 1000;
+let current_liabilities = 500;
+let cash_flow_ratio = cash / current_liabilities;
+console.log(cash_flow_ratio, "/");
+
+let revenues = 1000; 
+let expenses = 500; 
+let net_income = revenues - expenses; 
+console.log(net_income, "-")
+
+let liabilities = 1000; 
+let equity = 500; 
+let total_assets = liabilities + equity; 
+console.log(total_assets, "+")
+
+let profit = 1000; 
+let sales = 500; 
+let net_income_prof = liabilities * equity; 
+console.log(net_income_prof, "*")
+
+let numbers = [9, 7, 2];
+let sum = 0;
+for (let i = 0; i < numbers.length; i++) { 
+    sum += numbers[i]; }
+let avrage = (sum / numbers.length);
+console.log(avrage, "avg")
+
+let price = 150;
+let discount = .3;
+let new_price = price - (price * discount)
+console.log(new_price, "disc")
+
+let age = 20;
+ if (age >= 18 && age<=30) {
+  console.log("true", "&&");
+}
+else {
+    console.log("fulse", "&&");
+}
+
+let number1 = 2;
+let number2 = 3;
+let number3 = number1 ** number2;
+console.log(number3, "**")
+
+let numberx = 10;
+let numbery = 4;
+let numberz = numberx % numbery;
+console.log(numberz, "%")
+

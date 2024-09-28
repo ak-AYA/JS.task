@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    margin: 8px;
+}
+
+.shopping{
+margin: auto;
+padding: 15px;
+ min-height: 200px;
+ width: 400px;
+ background-color: rgb(244, 218, 255);
+ border: 1px solid lightgrey;
+ border-radius: 10px;
+}
+input{
+    height: 25px;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    margin: 8px;
+}
+button{
+    height: 25px;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    padding: 5px;
+}

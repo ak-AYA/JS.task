@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_DOM1.css">
+</head>
+<body>
+    <form class="container">
+        <div class="first_input">
+            <label class="username" for="input_name">User Name</label>
+            <input class="input_name" name="name" type="text" placeholder=" User Name" required>
+            <span class="errorMessage" style="color: rgb(130, 0, 0);"></span>
+
+        </div>
+        <div class="second_input">
+            <label class="password" for="input_pass">Password</label>
+            <input class="input_pass" name="pass" type="password" required>
+            <span class="errorMessage" style="color: rgb(130, 0, 0);"></span>
+
+        </div>
+        <div class="third_input">
+            <label class="confirmPassword" for="input_confirm">Confirm Password</label>
+            <input class="input_confirm" name="confirm" type="password" required>
+            <span class="errorMessage" style="color: rgb(130, 0, 0);"></span>
+
+        </div>
+        <span class="error_message" style="color:rgb(130, 0, 0);"></span><br>
+        <button type="submit" class="registerButton"  disabled >Register</button>
+
+    </form>
+
+
+
+
+
+    <script src="./index_DOM1.js"></script>
+</body>
+</html>

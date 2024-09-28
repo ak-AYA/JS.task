@@ -1,0 +1,29 @@
+"use strict"
+const text1 = "WELCOME TO ORANGE";
+console.log(text1);
+
+const text2 = "TO";
+console.log(text2);
+
+const text3 = "Hello from Orange";
+console.log(text3);
+
+const text4 = "wecolme to orange";
+console.log(text4);
+
+const text5 = 17;
+console.log(text5);
+
+const text6 = 'Hello to "Orange"';
+console.log(text6);
+
+const text7 = "Welcome to Orange Jordan ";
+console.log(text7);
+
+
+let text0 = "cactus";
+let third_letter = replacechar(text0, 2, '*');
+console.log(text0);
+
+
+
